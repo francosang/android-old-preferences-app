@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="menu_main_settings">Settings</string>
+    <string name="menu_main_about">Acerca</string>
+    <string name="menu_main_add">Nuevo</string>
+
+    <string name="setting_ask_pass" translatable="false">ask_pass</string>
+
+</resources>

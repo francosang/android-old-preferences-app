@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Seguridad">
+        <CheckBoxPreference
+            android:key="@string/setting_ask_pass"
+            android:title="Pedir contraseña"
+            android:defaultValue="true">
+
+        </CheckBoxPreference>
+
+        <EditTextPreference android:key="name"
+            android:title="Nombre"
+            android:defaultValue="Usuario"
+            android:summary="La contraseña para ver las notas secretas"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Privacidad">
+
+        <MultiSelectListPreference
+            android:key="shared_information"
+            android:summary="Información disponible para otros usarios"
+            android:title="Informacion compatida"
+            android:entries="@array/array_shared_information"
+            android:entryValues="@array/array_shared_information_values"/>
+
+
+        <ListPreference
+            android:key="font"
+            android:summary="Tipo de fuente"
+            android:title="Fuente"
+            android:entries="@array/array_font"
+            android:entryValues="@array/array_font_values"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
