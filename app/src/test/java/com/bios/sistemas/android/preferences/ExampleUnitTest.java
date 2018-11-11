@@ -1,4 +1,4 @@
-package com.example.sistemas.myapplication;
+package com.bios.sistemas.android.preferences;
 
 import org.junit.Test;
 

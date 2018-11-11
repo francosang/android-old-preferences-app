@@ -1,4 +1,4 @@
-package com.example.sistemas.myapplication;
+package com.bios.sistemas.android.preferences;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

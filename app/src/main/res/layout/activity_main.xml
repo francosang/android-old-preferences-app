@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.sistemas.myapplication.MainActivity">
+    tools:context="com.bios.sistemas.android.preferences.MainActivity">
 
 
     <EditText
